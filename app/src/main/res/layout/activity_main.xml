@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/operaciones_aritmeticas"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <!-- Imagen de operaciones -->
+    <ImageView
+        android:id="@+id/imgOperaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/operaciones"
+        android:layout_marginBottom="32dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/operaciones_aritmeticas" />
+
+    <!-- Campo de nombre -->
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_tu_nombre"
+        android:textColorHint="@color/gray_placeholder"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <!-- Botón Ingresar -->
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar"
+        android:textColor="@color/white"
+        android:background="@color/purple_button"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
+    <!-- Botón Cerrar -->
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrar"
+        android:textColor="@color/white"
+        android:background="@color/purple_button"
+        android:padding="16dp" />
+
+</LinearLayout>
+

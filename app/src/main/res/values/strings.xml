@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="operaciones_aritmeticas">Operaciones Aritmeticas</string>
+    <string name="escribe_tu_nombre">Escribe tu nombre para ingresar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="escribe_num1">Escribe el Num1</string>
+    <string name="escribe_num2">Escribe el Num2</string>
+    <string name="selecciona_operacion">Selecciona la operacion a realizar</string>
+    <string name="resultador">resultado</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="regresar">Regresar</string>
+    <string name="datos_requeridos">Todos los datos son requeridos</string>
+    <string name="error_division_cero">No se puede dividir por cero</string>
+    
+    <string-array name="operaciones_array">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+</resources>
